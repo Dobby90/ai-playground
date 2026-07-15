@@ -7,6 +7,10 @@ plugins {
 group = "io.github.dobby90"
 version = "0.0.1-SNAPSHOT"
 
+base {
+	archivesName = "aiplayground"
+}
+
 java {
 	toolchain {
 		languageVersion = JavaLanguageVersion.of(25)
